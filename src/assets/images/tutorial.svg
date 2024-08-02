@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="512"
+     height="512" x="0" y="0" viewBox="0 0 496 496" style="enable-background:new 0 0 512 512" xml:space="preserve"
+     className=""><g>
+<path xmlns="http://www.w3.org/2000/svg" style=""
+      d="M424,136h32c17.672,0,32,14.328,32,32v224H8V168c0-17.672,14.328-32,32-32h32H424z" fill="#3a6da1"
+      data-original="#39c3fc" className=""/>
+<rect xmlns="http://www.w3.org/2000/svg" x="72" y="8" style="" width="352" height="352" fill="#ececec"
+      data-original="#ececec" className=""/>
+<rect xmlns="http://www.w3.org/2000/svg" x="72" y="8" style="" width="352" height="64" fill="#5f98d1"
+      data-original="#fb5968" className=""/>
+<path xmlns="http://www.w3.org/2000/svg" style=""
+      d="M352,488l-2.688-4.032C340.632,470.952,336,455.648,336,440l0,0H160l0,0  c0,15.648-4.632,30.952-13.312,43.968L144,488H352z"
+      fill="#fcd770" data-original="#8c95a4" className=""/>
+<path xmlns="http://www.w3.org/2000/svg" style=""
+      d="M160,440c0,8.2-1.336,16.272-3.8,24h183.592c-2.456-7.728-3.792-15.8-3.792-24H160z" fill="#fcd770"
+      data-original="#798699" className=""/>
+<rect xmlns="http://www.w3.org/2000/svg" x="8" y="376" style="" width="480" height="24" fill="#148ce0"
+      data-original="#148ce0" className=""/>
+<rect xmlns="http://www.w3.org/2000/svg" x="104" y="136" style="" width="160" height="160" fill="#5f98d1"
+      data-original="#fb5968" className=""/>
+<polygon xmlns="http://www.w3.org/2000/svg" style="" points="152,248 152,184 216,216 " fill="#ececec"
+         data-original="#ececec" className=""/>
+<g xmlns="http://www.w3.org/2000/svg">
+	<rect x="296" y="104" style="" width="96" height="96" fill="#fcd770" data-original="#fcd770" className=""/>
+    <rect x="296" y="232" style="" width="96" height="96" fill="#fcd770" data-original="#fcd770" className=""/>
+</g>
+<path xmlns="http://www.w3.org/2000/svg" style=""
+      d="M8,392h480v16c0,17.672-14.328,32-32,32H40c-17.672,0-32-14.328-32-32V392z" fill="#afb8c9"
+      data-original="#afb8c9"/>
+<rect xmlns="http://www.w3.org/2000/svg" x="72" y="344" style="" width="352" height="16" fill="#b6c1ce"
+      data-original="#b6c1ce" className=""/>
+<path xmlns="http://www.w3.org/2000/svg"
+      d="M456,128h-24V0H64v128H40c-22.056,0-40,17.944-40,40v240c0,22.056,17.944,40,40,40h111.416  c-1.264,11.24-5.048,22.024-11.384,31.528L139.72,480H112v16h272v-16h-27.72l-0.312-0.472c-6.336-9.504-10.112-20.296-11.384-31.528  H456c22.056,0,40-17.944,40-40V168C496,145.944,478.056,128,456,128z M416,16v48H80V16H416z M40,144h24v224h368V176h-16v176H80V80  h336v80h16v-16h24c13.232,0,24,10.768,24,24v216H16V168C16,154.768,26.768,144,40,144z M337.768,480H158.232  c5.16-9.976,8.336-20.8,9.36-32h160.816C329.432,459.2,332.616,470.024,337.768,480z M456,432H40c-13.232,0-24-10.768-24-24v-8h464  v8C480,421.232,469.232,432,456,432z"
+      fill="#000000" data-original="#000000" style="" className=""/>
+<path xmlns="http://www.w3.org/2000/svg" d="M96,304h176V128H96V304z M112,144h144v144H112V144z" fill="#000000"
+      data-original="#000000" style="" className=""/>
+<path xmlns="http://www.w3.org/2000/svg"
+      d="M144,260.944L233.888,216L144,171.056V260.944z M160,196.944L198.112,216L160,235.056V196.944z" fill="#000000"
+      data-original="#000000" style="" className=""/>
+<path xmlns="http://www.w3.org/2000/svg" d="M288,208h112V96H288V208z M304,112h80v80h-80V112z" fill="#000000"
+      data-original="#000000" style="" className=""/>
+<path xmlns="http://www.w3.org/2000/svg" d="M288,336h112V224H288V336z M304,240h80v80h-80V240z" fill="#000000"
+      data-original="#000000" style="" className=""/>
+<rect xmlns="http://www.w3.org/2000/svg" x="96" y="32" width="16" height="16" fill="#000000" data-original="#000000"
+      style="" className=""/>
+<rect xmlns="http://www.w3.org/2000/svg" x="128" y="32" width="16" height="16" fill="#000000" data-original="#000000"
+      style="" className=""/>
+<rect xmlns="http://www.w3.org/2000/svg" x="160" y="32" width="16" height="16" fill="#000000" data-original="#000000"
+      style="" className=""/>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>

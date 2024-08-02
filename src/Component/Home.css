@@ -1,0 +1,99 @@
+.home {
+  width: 100%;
+  /* display: flex; */
+}
+
+.home-intro {
+  width: 100%;
+  font-size: 40px;
+  color: black;
+  text-align: start;
+}
+
+.home-image {
+  width: 50%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* .button {
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+  background-color: #11cf90;
+  color: black;
+  padding: 12px 25px;
+  position: relative;
+  transform: translateZ(0);
+  animation-name: moveUp;
+  animation-duration: 1s;
+  cursor: pointer;
+} */
+
+/* .button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #eeff00;
+  transform: scaleX(0);
+  transition: 300ms ease-out;
+} */
+.button:hover:before {
+  transform: scaleX(1);
+}
+.read-more-button{
+  background-color: #24379e;
+}
+.home-bg{
+  background-image: url("../assets/2666-ai (1) 1.png");
+  background-size:100%;
+  background-position: 'center';
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  .home-bg {
+    /* background-attachment: fixed; */
+  }
+}
+.web-dev{
+  background-image: url("../assets/27269.jpg");
+  background-size: 100%;
+  background-position: 'center';
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.home-third-bg{
+  background-image: url("../assets/projectAsstFormBg.png");
+  background-size: 100%;
+  background-position: 'center';
+  background-repeat: no-repeat;
+}
+.home-intro h1,
+.home-intro h4,
+.text {
+  font-family: 'Poppins', sans-serif;
+}
+.small-text {
+  font-family: 'Montserrat', sans-serif;
+}
+.first-card{
+  background-color: rgb(215, 215, 255)
+}
+.second-card{
+  background-color: rgb(215, 255, 226)
+}
+.third-card{
+  background-color: rgb(254, 255, 215)
+}
+.forth-card{
+  background-color: rgb(255, 215, 215);
+}

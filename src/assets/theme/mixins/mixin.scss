@@ -1,0 +1,36 @@
+// Flex Properties
+@mixin flexbox($justify-content: flex-start, $align-items: flex-end) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin inline-flexbox($justify-content: flex-start, $align-items: flex-end) {
+  display: inline-flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+// Text Align
+@mixin alignText($text-align: left) {
+  text-align: $text-align;
+}
+
+// Border Radius
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+// Padding Radius
+@mixin padding($top, $right, $bottom, $left) {
+  padding: $top $right $bottom $left;
+}
+
+// Icons
+@mixin icon($width, $height) {
+  width: $width;
+  height: $height;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}

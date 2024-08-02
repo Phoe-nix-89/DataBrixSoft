@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Digital Electronic",
+      "NoOfQstn": "10 Questions",
+      "time":"20min"
+    },
+    {
+      "title": "Embeded Electronic",
+      "NoOfQstn": "10 Questions",
+      "time":"20min"
+    },
+    {
+      "title": "Advanced Electronic",
+      "NoOfQstn": "10 Questions",
+      "time":"20min"
+    },
+    {
+      "title": "IoT Session",
+      "NoOfQstn": "10 Questions",
+      "time":"20min"
+    }
+  ]
+  

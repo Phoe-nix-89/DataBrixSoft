@@ -1,0 +1,539 @@
+@import "../assets/theme/colors/color.scss";
+@import "../assets/theme/mixins/mixin.scss";
+@import "../assets/theme/fonts/fonts.scss";
+
+
+    .header-space {
+        height: 70px;
+    }
+
+    @media screen and (max-width:1024px) {
+        .header-space {
+            height: 45px;
+        }
+    }
+
+    .institute-section-title {
+        @extend .fontsemibold;
+        font-size: 34px;
+        text-align: center;
+        color: $black;
+        margin-bottom: 1rem;
+    }
+
+    .institute-section-subtitle {
+        @extend .fontregular;
+        font-size: 16px;
+        text-align: center;
+        color: #565555;
+        margin-bottom: 4rem;
+    }
+
+    @media screen and (max-width: 600px) {
+        .institute-section-title {
+            font-size: 24px;
+            line-height: 1.2;
+        }
+
+        .institute-section-subtitle {
+            font-size: 14px;
+            line-height: 1.2;
+        }
+    }
+
+    .page-title {
+        @extend .fontsemibold;
+        font-size: $section-title;
+        text-align: left;
+        color: $black;
+        margin-bottom: 4rem;
+    }
+
+    .app-collaborator-layout {
+        padding: 6rem 0;
+
+        .app-collaborator-card {
+            margin-bottom: 2rem;
+
+            .image {
+                img {
+                    object-fit: contain;
+                    height: 130px;
+                    width: 100%;
+                }
+            }
+
+        }
+
+        @media screen and (max-width:767px) {
+            .app-collaborator-card {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    .app-pa-stage-layout {
+        padding: 10rem 0 6rem;
+         background-color: linear-gradient(180deg,#94ecffa6,#ffffffa6 .01%,#bfe8ffa6 93.75%);
+
+        .app-pa-stage-card {
+            background: $white;
+            box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.11);
+            padding: 6px;
+            border-radius: 10px;
+            margin-bottom: 3rem;
+            position: relative;
+
+            .app-pa-stage-index {
+                @include flexbox(center,center);
+                position: absolute;
+                top: -1rem;
+                left: -1rem;
+                border-radius: 3px;
+                border: 2px solid #FFF;
+                background: #E8AE2E;
+                width: 55px;
+                height: 60px;
+                box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+                color: $white;
+                font-size: 28px;
+                @extend .fontmedium;
+            }
+
+            @media screen and (max-width: 600px) {
+                .app-pa-stage-index {
+                    left: 0rem;
+                }
+            }
+            .image {
+                height: 274px;
+                width: 100%;
+                object-fit: cover;
+                margin-bottom: 6px;
+                border-radius: 15px 15px 0 0;
+
+            }
+        }
+
+        .app-pa-stage-wrapper {
+            @include flexbox(flex-start, center);
+            padding: 1rem;
+            border-radius: 0 0 15px 15px;
+
+            .icon {
+                margin-right: 1rem;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    object-fit: contain;
+                }
+            }
+
+            .title {
+                color: $black;
+                font-size: $title-2;
+                @extend .fontmedium;
+                white-space: pre-line;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+            }
+
+        }
+    }
+
+    .app-pa-wokflow-layout {
+        padding: 5rem 3rem;
+        background: linear-gradient(180deg, #DBF0FF 0%, #FFF 100%);
+        border-radius: 23px;
+
+        .app-pa-workflow-wrapper {
+            @include flexbox(flex-start, flex-start);
+            flex-wrap: wrap;
+            margin-top: 4rem;
+
+            .app-pa-workflow-card {
+                background: $white;
+                box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.11);
+                padding: 6px;
+                border-radius: 10px;
+                margin-bottom: 4rem;
+                height: 465px;
+
+                .image {
+                    height: 230px;
+                    width: 100%;
+                    object-fit: cover;
+                    margin-bottom: 6px;
+                    border-radius: 15px 15px 0 0;
+
+                }
+
+                .app-pa-workflow-body {
+                    padding: 0 1rem 0.5rem;
+
+                    .title {
+                        color: $black;
+                        font-size: $title-2;
+                        @extend .fontmedium;
+                        white-space: pre-line;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        margin-bottom: 1rem;
+                    }
+
+                    .description {
+                        color: $black;
+                        font-size: $regular;
+                        @extend .fontregular;
+                        white-space: pre-line;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 6;
+                        -webkit-box-orient: vertical;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 9910px) {
+        .app-pa-wokflow-layout {
+            padding: 3rem 1rem;
+        }
+
+        .app-pa-stage-layout {
+            padding: 5rem 0 3rem;
+            background-color: linear-gradient(180deg,#94ecffa6,#ffffffa6 .01%,#bfe8ffa6 93.75%);
+        }
+
+    }
+
+    .kof-testimonial-layout {
+        // background: rgba(217, 217, 217, 0.3);
+        border-radius: 0px 0px 0px 150px;
+        padding: 6rem 0;
+    }
+
+    .app-key-offering {
+        padding: 5rem 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .asb-course-provide-flex {
+            @include flexbox(space-between, flex-start);
+            flex-wrap: wrap;
+        }
+
+        @media screen and (max-width:768px) {
+            .asb-course-provide-flex {
+                flex-direction: column;
+                @include flexbox(flex-start, center);
+            }
+        }
+    }
+
+    .page-description-layout {
+        margin: 3rem 0 2rem;
+
+        .page-description {
+            @extend .fontmedium;
+            font-size: $sub-title;
+            color: $black;
+        }
+    }
+
+    .kof-action-btn {
+        @include flexbox(center, center);
+
+        button {
+            background: #24379E;
+            border-radius: 4px;
+            @extend .fontregular;
+            font-size: $title-2;
+            color: $white;
+            padding: 12px 42px;
+        }
+    }
+
+    .app-kof-work-flow {
+        padding: 5rem 0;
+
+        .flow-gif {
+            margin: 3rem 0;
+
+            img {
+                width: 100%;
+            }
+
+            video {
+                width: 100%;
+            }
+        }
+
+        .flow-gif-mb {
+            margin: 3rem 0;
+            display: none;
+
+            img {
+                width: 100%;
+            }
+
+            video {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .flow-gif {
+                display: none;
+                margin: 3rem 0;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .flow-gif-mb {
+                margin: 3rem 0;
+                display: block;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .app-institute-form {
+        padding: 5rem 0;
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: .4;
+            z-index: -1;
+            // background-image: url('../../assets/images/projectAsstFormBg.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+
+        .institut-form-layout {
+            @include flexbox(space-between, flex-start);
+            flex-wrap: wrap
+        }
+
+        .institute-form-input {
+            width: 30%;
+            margin-bottom: 3rem;
+
+            .kof-select-dropdown {
+                background: $white;
+                border: 1px solid #bdbdbd;
+                box-sizing: border-box;
+                border-radius: 4px;
+                padding: 0.5rem 1rem 0.5rem 1rem;
+            }
+
+            .if-label {
+                @extend .fontsemibold;
+                font-size: $sub-title;
+                color: #112D4E;
+                margin-bottom: 1.5rem;
+            }
+
+            .ru-input-field {
+                background: $white !important;
+                color: #112D4E;
+                border: 1px solid #BBBBBB;
+            }
+        }
+
+        .institute-form-input-textarea {
+            width: 100%;
+
+            .if-label {
+                @extend .fontsemibold;
+                font-size: $sub-title;
+                color: #112D4E;
+                margin-bottom: 1.5rem;
+            }
+
+            .if-textarea {
+                background: $white;
+                border: 1px solid #bdbdbd;
+                box-sizing: border-box;
+                border-radius: 6px;
+                padding: 0.5rem 2rem 0.5rem 2rem;
+                font-size: $sub-title;
+                width: 100%;
+                resize: none;
+                @extend .fontregular;
+                color: #112D4E;
+
+                &::placeholder {
+                    color: #828282;
+                }
+            }
+        }
+
+        .disclaim-layout {
+            margin: 1rem 0 2rem;
+
+            .disclaimer {
+                @extend .fontregular;
+                font-size: $sub-title;
+                color: $black !important;
+                span {
+                    color: $black !important;
+                }
+
+                a {
+                    @extend .fontsemibold;
+                    text-decoration: underline;
+                    color: $blue3 !important;
+
+                }
+            }
+        }
+
+        .form-action-btn {
+            @include flexbox(center, center);
+
+            button {
+                background: #24379E;
+                border-radius: 4px;
+                @extend .fontregular;
+                font-size: $title-2;
+                color: $white;
+                padding: 12px 42px;
+            }
+        }
+
+        .character-limit-text {
+            font-size: $small-text;
+            color: #999;
+            @extend .fontsemibold;
+            font-style: italic;
+            margin-top: 2px;
+        }
+
+        @media screen and (max-width:991px) {
+            .institute-form-input {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .app-pa-stage-layout {
+        padding: 10rem 0 6rem;
+        background-color: linear-gradient(180deg,#94ecffa6,#ffffffa6 .01%,#bfe8ffa6 93.75%);
+
+        .app-pa-stage-card {
+            // background: $white;
+            // box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.11);
+            padding: 6px;
+            border-radius: 10px;
+            margin-bottom: 3rem;
+            position: relative;
+            width: 18rem;
+
+            .app-pa-stage-index {
+                @include flexbox(center,center);
+                position: absolute;
+                top: -1rem;
+                left: -1rem;
+                border-radius: 3px;
+                border: 2px solid #FFF;
+                background: rgb(85, 255, 133);
+                width: 55px;
+                height: 60px;
+                box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+                color: black;
+                font-size: 28px;
+                @extend .fontmedium;
+            }
+
+            @media screen and (max-width: 600px) {
+                .app-pa-stage-index {
+                    left: 0rem;
+                }
+            }
+            .image {
+                height: 274px;
+                width: 100%;
+                object-fit: cover;
+                margin-bottom: 6px;
+                border-radius: 15px 15px 0 0;
+
+            }
+        }
+
+        .app-pa-stage-wrapper {
+            @include flexbox(flex-start, center);
+            padding: 1rem;
+            border-radius: 0 0 15px 15px;
+            
+
+            .icon {
+                margin-right: 1rem;
+                border: 1px solid black;
+                padding-top: 3px;
+                border-radius: 5px;
+
+                .image {
+                    margin-top: 5px;
+                    width: 40px;
+                    height: 25px;
+                    object-fit: contain;
+                }
+            }
+
+            .title {
+                color: $black;
+                font-size: $title-2;
+                @extend .fontmedium;
+                white-space: pre-line;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+    }
+
+
+    .title1 {
+        color: $black;
+        font-size: 19px;
+        @extend .fontmedium;
+        white-space: pre-line;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }

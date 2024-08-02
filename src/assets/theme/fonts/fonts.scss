@@ -1,0 +1,79 @@
+$font_0: "Poppins";
+
+// Urls
+
+$url_0: url(../../fonts/Poppins-Medium.woff2);
+$url_1: url(../../fonts/Poppins-Medium.woff);
+$url_2: url(../../fonts/Poppins-Bold.woff2);
+$url_3: url(../../fonts/Poppins-Bold.woff);
+$url_4: url(../../fonts/Poppins-Regular.woff2);
+$url_5: url(../../fonts/Poppins-Regular.woff);
+$url_6: url(../../fonts/Poppins-SemiBold.woff2);
+$url_7: url(../../fonts/Poppins-SemiBold.woff);
+
+@font-face {
+  font-family: $font_0;
+  src: $url_0 format("woff2"), $url_1 format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font_0;
+  src: $url_6 format("woff2"), $url_7 format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font_0;
+  src: $url_2 format("woff2"), $url_3 format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font_0;
+  src: $url_4 format("woff2"), $url_5 format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Font Weights
+
+.fontregular {
+  font-family: $font_0;
+  font-weight: 400;
+}
+
+.fontmedium {
+  font-family: $font_0;
+  font-weight: 500;
+}
+
+.fontbold {
+  font-family: $font_0;
+  font-weight: bold;
+}
+
+.fontsemibold {
+  font-family: $font_0;
+  font-weight: 600;
+}
+
+// Font Size
+$page-title: 48px;
+$section-title: 30px;
+$regular: 14px;
+$section-title-bold: 34px;
+$title: 18px;
+$small-text: 12px;
+$sub-title: 16px;
+$tag: 24px;
+$info-banner-text: 40px;
+$title-2: 20px;
+$normal-title: $regular;

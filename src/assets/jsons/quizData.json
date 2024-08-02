@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "question": "What Happens If we press the button ?",
+    "options": ["The LED will burn", "The LED will turn off", "The Transitor will burn","the LED will turn on"],
+    "answer":"The LED will burn"
+  },
+  {
+    "id": 1,
+    "question": "The process of emission of electrons from the hot metal surfaces is called",
+    "options": ["plastic emission", "thermionic emission", "static emission","current emission"],
+    "answer":"thermionic emission"
+  },
+  {
+    "id": 2,
+    "question": "What Happens If we press the button ?",
+    "options": ["The LED will burn", "The LED will turn off", "The Transitor will burn","the LED will turn on"],
+    "answer":"The LED will burn"
+  },
+  {
+    "id": 3,
+    "question": "The process of emission of electrons from the hot metal surfaces is called",
+    "options": ["plastic emission", "thermionic emission", "static emission","current emission"],
+    "answer":"thermionic emission"
+  },
+  {
+    "id": 4,
+    "question": "What Happens If we press the button ?",
+    "options": ["The LED will burn", "The LED will turn off", "The Transitor will burn","the LED will turn on"],
+    "answer":"The LED will burn"
+  },
+  {
+    "id": 5,
+    "question": "The process of emission of electrons from the hot metal surfaces is called",
+    "options": ["plastic emission", "thermionic emission", "static emission","current emission"],
+    "answer":"thermionic emission"
+  }
+]

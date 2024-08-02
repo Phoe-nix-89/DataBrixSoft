@@ -1,0 +1,8 @@
+.absolute[aria-expanded="false"] {
+  display: none;
+}
+
+/* Show the dropdown menu when hovering over the Product button */
+button[aria-expanded="true"] + .absolute {
+  display: block;
+}

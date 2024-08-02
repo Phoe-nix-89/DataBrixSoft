@@ -1,0 +1,107 @@
+
+h3{
+    font-family: 'Montserrat';
+font-style: normal;
+margin: 0;
+padding: 0;
+font-size: 150%;
+text-align: center;
+font-weight: bold;
+
+color: #B65295;
+}
+
+
+h1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    
+    font-size: 120%;
+    font-weight: bold;
+} 
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    /* font-size: 30px; */
+    /* opacity: 0;
+    visibility: hidden; */
+    color: black;
+}
+
+
+ .h1-intro{
+    width: 100%;
+    height: 70px;
+    padding: 6px;
+    box-sizing: border-box;
+    bottom: 0px;
+    background: linear-gradient(135deg, rgb(255, 162, 162) 0%, rgb(255, 58, 58) 100%);  
+    color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: black;
+    transition: .8s;
+    position: absolute;
+    
+
+}
+.my-class{
+    border-radius: 30px;
+}
+.h1-intro2{
+    /* position: absolute; */
+    /* width: 30%; */
+    width: 100%;
+    height: 70px;
+    padding: 6px;
+    box-sizing: border-box;
+    /* position: absolute; */
+    bottom: 0px;
+    background: rgb(254, 255, 215);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: black;
+    transition: .8s;
+    position: absolute;
+
+}
+
+.h1-intro3{
+    width: 100%;
+    height: 70px;
+    padding: 6px;
+    box-sizing: border-box;
+    bottom: 0px;
+    background: linear-gradient(135deg, rgb(253, 255, 143) 0%, rgb(238, 255, 88) 100%);  
+    color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: black;
+    transition: .8s;
+    position: absolute;
+
+}
+.my-class:hover .h1-intro{
+    height: 100%;
+    bottom:0px;
+    background: linear-gradient(135deg, rgb(255, 162, 162) 0%, rgb(255, 58, 58) 100%);  
+    border-radius: 30px;
+}
+.my-class:hover .h1-intro2{
+    height: 100%;
+    bottom:0px;
+    background: linear-gradient(135deg, rgb(197, 255, 192) 0%, rgb(147, 255, 255) 100%);  
+    border-radius: 30px;
+}
+
+.my-class:hover .h1-intro3{
+    height: 100%;
+    bottom:0px;
+    background: linear-gradient(135deg, rgb(253, 255, 143) 0%, rgb(238, 255, 88) 100%);  
+    border-radius: 30px;
+}
+

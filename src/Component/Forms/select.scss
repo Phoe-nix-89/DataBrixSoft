@@ -1,0 +1,53 @@
+@import "../../assets/theme/colors/color.scss";
+@import "../../assets/theme/mixins/mixin.scss";
+
+.selected-dropdown-icon {
+  @include icon(15px, 15px);
+  opacity: 0.5;
+  margin-right: 15px;
+}
+.select-dropdown-view {
+  background: transparent;
+}
+.css-yk16xz-control {
+  background: transparent !important;
+  border-color: transparent !important;
+  outline: none !important;
+  &:hover {
+    border-color: transparent;
+  }
+}
+.css-1uccc91-singleValue {
+  color: $blue-whale !important;
+}
+.css-1wa3eu0-placeholder {
+  color: $blue-whale !important;
+  opacity: 0.4 !important;
+}
+.css-g1d714-ValueContainer {
+  padding: 0 20px !important;
+}
+.css-1okebmr-indicatorSeparator {
+  width: 0 !important;
+}
+.css-tlfecz-indicatorContainer {
+  padding: 0px !important;
+}
+.css-1gtu0rj-indicatorContainer {
+  padding: 0px !important;
+}
+
+.css-1pahdxg-control {
+  background: transparent !important;
+  border-color: none !important;
+  box-shadow: 0 0 0 0 !important;
+  border-width: 0 !important;
+  &:hover {
+    border-color: transparent !important;
+    outline: none !important;
+  }
+  &:active {
+    border-color: transparent !important;
+    outline: none !important;
+  }
+}

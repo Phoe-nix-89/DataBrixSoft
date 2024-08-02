@@ -1,0 +1,60 @@
+@import "../../assets/theme/colors/color.scss";
+@import "../../assets/theme/mixins/mixin.scss";
+@import "../../assets/theme/fonts/fonts.scss";
+
+.ru-input-field {
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  @include border-radius(4px);
+  @include padding(1rem, 2rem, 1rem, 2rem);
+  background: rgba(245, 245, 245, 0.6);
+  width: 100%;
+  @extend .fontmedium;
+  font-size: $sub-title;
+  color: $black;
+}
+.if-textarea{
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  @include border-radius(4px);
+  @include padding(1rem, 2rem, 1rem, 2rem);
+  background: rgba(245, 245, 245, 0.6);
+  width: 100%;
+  @extend .fontmedium;
+  font-size: $sub-title;
+  color: $black;
+}
+.button-class{
+  // @include flexbox(center,center);
+display: flex;
+align-items:start;
+justify-content: start;
+margin: 0;
+  padding-bottom: 10px;
+  padding-left: 2.3rem;
+button{
+  background: #24379E;
+  border-radius: 4px;
+  color: white;
+  font-size: $title-2;
+  padding: 12px 42px;
+}
+}
+.kof-select-dropdown{
+  background: $white;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.ru-input-field::placeholder {
+  color: #828282;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .ru-input-field {
+    font-size: 14px !important;
+  }
+}
