@@ -2,9 +2,27 @@
     margin: 0;
     padding: 0;
 }
+.nav-btn{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 20px;
+}
+.prev-slide{
+    border-radius: 20px;
+}
+.nav-btn:hover{
+    background-color: rgb(0, 106, 205);
+}
+.btm{
+    width: 60px;
+    height: 10px;
+    padding-top: 5px;
+}
 .slider-bg{
     background-image: url('../assets/sliderbg.png');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .cona{
@@ -36,13 +54,13 @@
     
     height: 100%;
     width: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     
 }
 .card{
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     width: 23rem;    
 }
 .first-card{
@@ -65,8 +83,8 @@
     position: absolute;
     bottom: 0px;
     background: rgb(255, 215, 215);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    /* border-bottom-left-radius: 30px; */
+    /* border-bottom-right-radius: 30px; */
     color: black;
     transition: .8s;
     
@@ -79,8 +97,8 @@
     position: absolute;
     bottom: 0px;
     background: rgb(215, 255, 226);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    /* border-bottom-left-radius: 30px; */
+    /* border-bottom-right-radius: 30px; */
     color: black;
     transition: .8s;
     
@@ -94,8 +112,8 @@
     position: absolute;
     bottom: 0px;
     background: rgb(254, 255, 215);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    /* border-bottom-left-radius: 30px; */
+    /* border-bottom-right-radius: 30px; */
     color: black;
     transition: .8s;
     
@@ -137,20 +155,20 @@
     height: 97%;
     bottom:0px;
     background: linear-gradient(135deg, rgb(255, 162, 162) 0%, rgb(255, 58, 58) 100%);  
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 .card:hover .intro2{
     height: 97%;
     bottom:0px;
     background: linear-gradient(135deg, rgb(197, 255, 192) 0%, rgb(147, 255, 255) 100%);  
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 .card:hover .intro3{
     height: 97%;
     bottom:0px;
     background: linear-gradient(135deg, rgb(253, 255, 143) 0%, rgb(238, 255, 88) 100%);  
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 .items{
 }

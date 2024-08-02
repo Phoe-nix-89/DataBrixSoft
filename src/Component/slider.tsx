@@ -7,6 +7,7 @@ import Idea from "../assets/idea.jpg";
 import Requirement from "../assets/req.jpg";
 import resarch from "../assets/search.jpg";
 import design from "../assets/design.jpg";
+import osbtm from '../assets/osbtm.png';
 
 const Home = () => {
   const options = {
@@ -14,6 +15,7 @@ const Home = () => {
     loop: true,
     autoplay: true,
     autoplayTimeout: 2000,
+    navText:["<button class='nav-btn prev-slide'><</button>","<button class='nav-btn next-slide'>></button>"],
     animateout: "slideOutup",
     nav: true,
     dots: true,
@@ -60,9 +62,13 @@ const Home = () => {
   };
 
   return (
-    <div className="slider-bg">
-      <div className="py-24 my-20 flex justify-center">
-        <OwlCarousel className="owl-theme" {...options}>
+    <div className="slider-bg flex flex-col ">
+      <div className="text-5xl text-white pt-10">Our Services</div>
+      <div className="flex justify-center">
+        <img src={osbtm} className="btm" alt="" />
+      </div>
+      <div className="pt-0 pb-8 mt-0 mb-14 flex justify-center">
+        <OwlCarousel className="owl-theme mt-10" {...options}>
           <div className="items p-4 flex justify-around">
             <div className="card">
               <img className="imageClass" src={Requirement} alt="" />
