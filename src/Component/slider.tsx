@@ -67,7 +67,7 @@ const Home = () => {
       <div className="flex justify-center">
         <img src={osbtm} className="btm" alt="" />
       </div>
-      <div className="pt-0 pb-8 mt-0 mb-14 flex justify-center">
+      <div className="pt-0 pb-8 mt-0 mb-8 flex justify-center">
         <OwlCarousel className="owl-theme mt-10" {...options}>
           <div className="items p-4 flex justify-around">
             <div className="card">
