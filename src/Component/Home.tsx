@@ -213,6 +213,7 @@ const Home = () => {
         </div>
         
       </div>
+      <Slider/>
       <div className="grid grid-cols-1 lg:grid-cols-2 home-third-bg w-full">        
         <div className="">
           <img src={Cloud} alt="" className="p-0 m-0 h-96 w-96 mx-auto" />
@@ -351,7 +352,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-  <Slider/>
     </div>
   );
 };
