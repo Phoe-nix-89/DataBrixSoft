@@ -10,6 +10,7 @@ import home2 from '../assets/home2.png';
 import home3 from '../assets/home3.png';
 import home4 from '../assets/home4.png';
 import home5 from '../assets/home5.png';
+import OurProtfolio from "./OurProtfolio";
 
 
 const Home = () => {
@@ -214,7 +215,7 @@ const Home = () => {
         
       </div>
       <Slider/>
-      <div className="grid grid-cols-1 lg:grid-cols-2 home-third-bg w-full">        
+      {/* <div className="grid grid-cols-1 lg:grid-cols-2 home-third-bg w-full">        
         <div className="">
           <img src={Cloud} alt="" className="p-0 m-0 h-96 w-96 mx-auto" />
         </div>
@@ -351,7 +352,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <OurProtfolio/>
     </div>
   );
 };

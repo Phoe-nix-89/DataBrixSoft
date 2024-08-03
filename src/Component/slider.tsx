@@ -23,7 +23,7 @@ const Home = () => {
     margin: 0,
     responsive: {
       2000: {
-        items: 4,
+        items: 3,
       },
       1800: {
         items: 3,
