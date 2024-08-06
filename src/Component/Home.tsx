@@ -19,9 +19,6 @@ const Home = () => {
     <div className="">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:h-[40rem] home-bg">
         <div className="px-8 py-16 md:px-16"><AnimatedText /></div>
-        <div className='w-full h-full'>
-          {/* <HomeLottie /> */}
-        </div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 py-24">
         <div className="mx-auto my-6 lg:mx-auto">
