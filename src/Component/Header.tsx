@@ -99,7 +99,7 @@ const HeaderComponent = () => {
             <Link to="/">
               <a
                 href="#"
-                className="text-sm font-semibold leading-6  hover:text-red-700 text-white"
+                className="text-sm font-semibold leading-6  hover:text-yellow-400 text-white"
                 onMouseLeave={handleMouseLeave}
               >
                 Home
@@ -110,7 +110,7 @@ const HeaderComponent = () => {
                 type="button"
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
-                className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white  hover:text-red-700 pb-2"
+                className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white  hover:text-yellow-400 pb-2"
                 aria-expanded="false"
               >
                 Service
@@ -308,7 +308,7 @@ const HeaderComponent = () => {
             </div>
             <Link to="/about-us">
               <a
-                className="text-sm font-semibold leading-6 text-white hover:text-red-700"
+                className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
                 onMouseLeave={handleMouseLeave}
               >
                 About Us
@@ -316,7 +316,7 @@ const HeaderComponent = () => {
             </Link>
             <Link to="/careers">
               <a
-                className="text-sm font-semibold leading-6 text-white hover:text-red-700"
+                className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
                 onMouseLeave={handleMouseLeave}
                 onClick={closeDropdown}
               >
@@ -325,7 +325,7 @@ const HeaderComponent = () => {
             </Link>
             <Link to="/contact-us">
               <a
-                className="text-sm font-semibold leading-6 text-white hover:text-red-700"
+                className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
                 onMouseLeave={handleMouseLeave}
               >
                 Contact Us
@@ -388,7 +388,7 @@ const HeaderComponent = () => {
                           <Link to="/">
                             <a
                               href="#"
-                              className="text-sm font-semibold leading-6 text-white hover:text-red-700"
+                              className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
                               onMouseLeave={handleMouseLeave}
                               onClick={closeDropdown}
                             >
@@ -416,7 +416,7 @@ const HeaderComponent = () => {
         className="flex items-center justify-center p-4 cursor-pointer"
         onClick={togglePanel}
       >
-        <h2 className="text-sm font-semibold leading-6 text-white hover:text-red-700 pl-6 pr-5">Data</h2>
+        <h2 className="text-sm font-semibold leading-6 text-white hover:text-yellow-400 pl-6 pr-5">Data</h2>
         <svg
           className={`w-5 h-5 text-white transition-transform transform ${
             expanded ? 'rotate-90' : ''
@@ -604,7 +604,7 @@ const HeaderComponent = () => {
                         <li className="py-3">
                           <Link to="/about-us">
                             <a
-                              className="text-sm font-semibold leading-6 text-white hover:text-red-700"
+                              className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
                               onMouseLeave={handleMouseLeave}
                               onClick={closeDropdown}
                             >
@@ -615,7 +615,7 @@ const HeaderComponent = () => {
                         <li className="py-3">
                           <Link to="/careers">
                             <a
-                              className="text-sm font-semibold leading-6 text-white hover:text-red-700"
+                              className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
                               onMouseLeave={handleMouseLeave}
                               onClick={closeDropdown}
                             >
@@ -626,7 +626,7 @@ const HeaderComponent = () => {
                         <li className="py-3">
                           <Link to="/contact-us">
                             <a
-                              className="text-sm font-semibold leading-6 text-white hover:text-red-700"
+                              className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
                               onMouseLeave={handleMouseLeave}
                               onClick={closeDropdown}
                             >
