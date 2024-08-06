@@ -9,9 +9,7 @@
     .img{
         width: 100%;
     }
-    .text{
-        display: none;
-    }
+    
 }
 @media screen and (max-width : 1149px) {
     .div1{
@@ -25,9 +23,6 @@
         width: 100%;
     }
     .img:hover{
-    }
-    .text{
-        display: none;
     }
     
 }
@@ -43,9 +38,7 @@
     .txt2{
         font-size: 13px;
     }
-    .text{
-        display: none;
-    }
+    
 }
 @media screen and (min-width : 1600px) {
     .div1{
@@ -59,9 +52,7 @@
     .txt2{
         font-size: larger;
     }
-    .text{
-        display: none;
-    }
+    
 }
 @media screen and (min-width : 1800px) {
     .div1{
@@ -75,7 +66,5 @@
     .txt2{
         font-size: larger;
     }
-    .text{
-        display: none;
-    }
+    
 }

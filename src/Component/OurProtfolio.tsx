@@ -10,24 +10,24 @@ import ourport3 from '../assets/ourport3.png';
 import ourport4 from '../assets/ourport4.png';
 
 function OurProtfolio() {
-    const [width, setWidth] = useState("400");
+    // const [width, setWidth] = useState("400");
     // const breakPoint = 1450;
-    const options = {
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:5
-            }
-        }
-    };
+    // const options = {
+    //     loop:true,
+    //     margin:10,
+    //     nav:true,
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         600:{
+    //             items:3
+    //         },
+    //         1000:{
+    //             items:5
+    //         }
+    //     }
+    // };
   return (
     <div className='bg-[#EAEAFF] h-[105vh] rounded-br-[200px] flex flex-col justify-center items-center'>
         <div className=' div1'>
@@ -41,7 +41,7 @@ function OurProtfolio() {
                 <div className=' h-[50%] w-[50%] flex item1'>
                     <div className='  h-full w-[50%] img'>
                         <img src={ourport1} className='w-full h-full' alt="" />
-                        <div className='text'>test</div>
+                        {/* <div className='text'>test</div> */}
                     </div>
                     <div className='  h-full w-[50%] bg-white txt flex flex-col'>
                         <p className='h-[35%] text-left pt-16 txt1'>Mobile App</p>
