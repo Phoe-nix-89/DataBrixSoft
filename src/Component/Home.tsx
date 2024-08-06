@@ -11,6 +11,7 @@ import home3 from '../assets/home3.png';
 import home4 from '../assets/home4.png';
 import home5 from '../assets/home5.png';
 import OurProtfolio from "./OurProtfolio";
+import WhyChooseDataBrix from "./WhyChooseDataBrix";
 
 
 const Home = () => {
@@ -351,6 +352,7 @@ const Home = () => {
         </div>
       </div> */}
       <OurProtfolio/>
+      <WhyChooseDataBrix />
     </div>
   );
 };
