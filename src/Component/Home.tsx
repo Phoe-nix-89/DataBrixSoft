@@ -12,6 +12,7 @@ import home4 from '../assets/home4.png';
 import home5 from '../assets/home5.png';
 import OurProtfolio from "./OurProtfolio";
 import WhyChooseDataBrix from "./WhyChooseDataBrix";
+import OurValuableClients from "./OurValuableClients";
 
 
 const Home = () => {
@@ -353,6 +354,7 @@ const Home = () => {
       </div> */}
       <OurProtfolio/>
       <WhyChooseDataBrix />
+      <OurValuableClients />
     </div>
   );
 };
