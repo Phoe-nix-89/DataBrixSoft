@@ -32,7 +32,7 @@ function OurProtfolio() {
     <div className='bg-[#EAEAFF] h-[105vh] rounded-br-[200px] flex flex-col justify-center items-center'>
         <div className=' div1'>
             <div className=' h-[15%]'>
-                <div className="text-5xl text-black font-semibold">Our Portfolio</div>
+                <div className="text-5xl text-black font-semibold our">Our Portfolio</div>
                 <div className="flex justify-center">
                     <img src={osbtm} className="btm" alt="" />
                 </div>
