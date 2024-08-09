@@ -1,0 +1,139 @@
+.outer{
+    /* border: 2px solid black; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.tp{
+    font-size: 40px;
+    font-weight: bold;
+}
+.imgdiv{
+    display: flex;
+    justify-content: center;
+}
+.ct{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 1300px;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+}
+.bx{
+    height: 430px;
+    width: 600px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.im1{
+    width: 600px;
+    height:300px;
+    position: absolute;
+    z-index: -1;
+}
+.bl{
+    justify-self: start;
+    background-color: #2A64F9;
+    height: 63px;
+    width: 156px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* padding: auto; */
+    /* margin-left: 10px; */
+}
+.t{
+    /* margin-top: 100px; */
+    /* border: 2px solid black; */
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
+.mob{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.lr{
+    font-size: 16px;
+    text-align: left;
+    /* border:  2px solid black; */
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width : 1385px) {
+    .im1{
+        width: 500px;
+        height:250px;
+    }
+    .bx{
+        width: 500px;
+        height: 400px;
+    }
+    .ct{
+        height: 500px;
+        width: 1100px;
+    }
+    .bl{
+        height: 53px;
+        width: 136px;
+        font-size: 14px;
+    }
+    .outer{
+        height: 90vh;
+    }
+}
+@media screen and (max-width : 1150px) {
+    .im1{
+        width: 400px;
+        height:220px;
+    }
+    .bx{
+        width: 400px;
+        height: 350px;
+    }
+    .ct{
+        height: 400px;
+        width: 900px;
+    }
+    .bl{
+        height: 43px;
+        width: 116px;
+        font-size: 12px;
+    }
+    .mob{
+        font-size: 18px;
+    }
+    .lr{
+        font-size: 13px;
+    }
+    .outer{
+        height: 80vh;
+    }
+}
+@media screen and (max-width : 910px) {
+    .outer{
+        height: 125vh;
+    }
+    .ct{
+        height: 800px;
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+}
