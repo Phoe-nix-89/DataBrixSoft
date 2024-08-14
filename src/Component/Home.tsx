@@ -14,6 +14,7 @@ import OurProtfolio from "./OurProtfolio";
 import WhyChooseDataBrix from "./WhyChooseDataBrix";
 import OurValuableClients from "./OurValuableClients";
 import OurTopBlogs from "./OurTopBlogs";
+import GetStarted from "./GetStarted";
 
 
 const Home = () => {
@@ -357,6 +358,7 @@ const Home = () => {
       <WhyChooseDataBrix />
       <OurValuableClients />
       <OurTopBlogs />
+      <GetStarted />
     </div>
   );
 };
