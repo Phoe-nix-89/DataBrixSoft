@@ -26,7 +26,7 @@ function GetStarted() {
                 <div className='f-name'>
                   <div className='below-img'>
                     <div className='tp'>The best aticles every week</div>
-                    <div className='bttm'></div>
+                    <div className='bttm'>Our insurance plans offers are priced the same everywhere else.</div>
                   </div>
                 </div>
               </div>
