@@ -16,6 +16,7 @@ import MobileApplication from './Component/mobile-application';
 import SS from './Component/staffing-solution';
 import CloudService from './Component/cloud-service'
 import Careers from './Component/Carrer'
+import NewFooter from './Component/NewFooter';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -58,7 +59,8 @@ function App() {
             <Route path="/careers" element={<Careers />} />
             <Route path="*" element={<NoFound />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
+          <NewFooter />
         </BrowserRouter>
       
       
