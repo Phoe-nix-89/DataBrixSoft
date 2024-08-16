@@ -7,7 +7,7 @@ import ourtop2 from '../assets/ourtop2.png';
 function OurTopBlogs() {
   return (
     <div className='outer'>
-        <div className='tp'>Our Top Blogs</div>
+        <div className='ourtop'>Our Top Blogs</div>
         <div className='imgdiv'>
             <img src={osbtm} alt="" />
         </div>
