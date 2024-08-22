@@ -2,6 +2,9 @@
   width: 100%;
   /* display: flex; */
 }
+.atext2{
+  display: none;
+}
 
 .home-intro {
   width: 100%;
@@ -56,12 +59,22 @@
 .home-bg{
   background-image: url("../assets/2666-ai (1) 1.png");
   background-size:100%;
-  background-position: 'center';
+  background-position:center;
   background-repeat: no-repeat;
 }
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .home-bg {
     /* background-attachment: fixed; */
+    height: 500px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .atext{
+    /* margin-top: 10px; */
+    display: none;
+  }
+  .atext2{
+    display: flex;
   }
 }
 .web-dev{

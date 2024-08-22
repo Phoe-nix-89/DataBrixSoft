@@ -21,10 +21,11 @@ const Home = () => {
 
   return (
     <div className="">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:h-[40rem] home-bg">
-        <div className="px-8 py-16 md:px-16"><AnimatedText /></div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:h-[40rem] home-bg">
+        <div className="px-8 py-16 md:px-16 atext"><AnimatedText /></div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 py-24">
+      <div className="px-8 md:px-16 atext2"><AnimatedText /></div>
+      <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 py-16">
         <div className="mx-auto my-6 lg:mx-auto">
           <div className="max-w-[250px] p-6 bg-white border border-gray-200 rounded-lg shadow forth-card h-full flex flex-col justify-between">
             <img src={home1} alt="" />
@@ -213,9 +214,9 @@ const Home = () => {
             </a> */}
           </div>
         </div>
-        
+
       </div>
-      <Slider/>
+      <Slider />
       {/* <div className="grid grid-cols-1 lg:grid-cols-2 home-third-bg w-full">        
         <div className="">
           <img src={Cloud} alt="" className="p-0 m-0 h-96 w-96 mx-auto" />
@@ -354,7 +355,7 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-      <OurProtfolio/>
+      <OurProtfolio />
       <WhyChooseDataBrix />
       <OurValuableClients />
       <OurTopBlogs />
