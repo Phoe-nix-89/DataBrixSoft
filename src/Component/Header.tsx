@@ -323,6 +323,15 @@ const HeaderComponent = () => {
                 Careers
               </a>
             </Link>
+            <Link to="/portfolio">
+              <a
+                className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
+                onMouseLeave={handleMouseLeave}
+                onClick={closeDropdown}
+              >
+                Our Protfolio
+              </a>
+            </Link>
             <Link to="/contact-us">
               <a
                 className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
@@ -620,6 +629,17 @@ const HeaderComponent = () => {
                               onClick={closeDropdown}
                             >
                               Careers
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="py-3">
+                          <Link to="/portfolio">
+                            <a
+                              className="text-sm font-semibold leading-6 text-white hover:text-yellow-400"
+                              onMouseLeave={handleMouseLeave}
+                              onClick={closeDropdown}
+                            >
+                              Our Portfolio
                             </a>
                           </Link>
                         </li>
