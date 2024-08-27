@@ -17,6 +17,8 @@ import SS from './Component/staffing-solution';
 import CloudService from './Component/cloud-service'
 import Careers from './Component/Carrer'
 import NewFooter from './Component/NewFooter';
+import OurProtfolio from './Component/OurProtfolio';
+import Portfolio from './Component/PortFolio/Portfolio';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -57,6 +59,7 @@ function App() {
             <Route path="/services/staffing-solution" element={<SS />} />
             <Route path="/services/ai-ml" element={<AiMl />} />
             <Route path="/careers" element={<Careers />} />
+            <Route path="/portfolio" element={<Portfolio />} />
             <Route path="*" element={<NoFound />} />
           </Routes>
           {/* <Footer /> */}
