@@ -1,6 +1,7 @@
 import React from 'react'
 import './Portfolio.css';
 import port1 from '../../assets/port1.png';
+import { Link, Outlet } from 'react-router-dom';
 
 function Portfolio() {
   return (
@@ -16,6 +17,18 @@ function Portfolio() {
         </div>
         <img className='up-img' src={port1} alt="" />
       </div>
+
+      <div className='lower'>
+        <div className='lower-top-text'>Our Portfolio</div>
+        <div className='selection font-semibold'>
+          <Link to={""} className='all-project'>All Project</Link>
+          <Link to={""} className='web-design'>Web Design</Link>
+          <Link to={""} className='logo-design'>Logo Design</Link>
+          <Link to={""} className='mobile-app'>Mobile App</Link>
+        </div>
+      </div>
+
+      <Outlet />
     </div>
   )
 }
