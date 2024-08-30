@@ -21,10 +21,10 @@ function Portfolio() {
       <div className='lower'>
         <div className='lower-top-text'>Our Portfolio</div>
         <div className='selection font-semibold'>
-          <Link to={""} className='all-project'>All Project</Link>
-          <Link to={""} className='web-design'>Web Design</Link>
-          <Link to={""} className='logo-design'>Logo Design</Link>
-          <Link to={""} className='mobile-app'>Mobile App</Link>
+          <Link to={"allproj"} className='all-project'>All Project</Link>
+          <Link to={"webdesign"} className='web-design'>Web Design</Link>
+          <Link to={"logodesign"} className='logo-design'>Logo Design</Link>
+          <Link to={"mobileapp"} className='mobile-app'>Mobile App</Link>
         </div>
       </div>
 

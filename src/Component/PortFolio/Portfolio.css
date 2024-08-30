@@ -1,5 +1,5 @@
 .ptfo{
-    height: 200vh;
+    height: 230vh;
 }
 .upper{
     /* border: 2px solid black; */
@@ -39,8 +39,8 @@
 }
 
 .lower{
-    border: 2px solid black;
-    margin-top: 130px;
+    /* border: 2px solid black; */
+    margin-top: 90px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@
     font-weight: bold;
 }
 .selection{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 540px;
     height: 50px;
     margin-top: 16px;
@@ -85,4 +85,46 @@
 }
 .mobile-app:focus{
     color: #2A64F9;
+}
+@media screen and (max-width:900px) {
+    .up-text{
+        width: 370px;
+    }
+}
+@media screen and (max-width:780px) {
+    .up-text{
+        width: 320px;
+    }
+}
+@media screen and (max-width:720px) {
+    .up-text{
+        width: 280px;
+    }
+    .up-t-inner{
+        height: 220px;
+    }
+}
+@media screen and (max-width:670px) {
+    .ptfo{
+        height: 300vh;
+    }
+}
+@media screen and (max-width:620px) {
+    .up-img{
+        display: none;
+    }
+    .up-text{
+        width: 400px;
+    }
+    .capital,.para-text{
+        text-align: center;
+    }
+}
+@media screen and (max-width : 550px) {
+    .selection{
+        width: 500px;
+    }
+    .lower{
+        /* width: 600px; */
+    }
 }
