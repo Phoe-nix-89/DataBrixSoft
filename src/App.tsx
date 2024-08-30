@@ -19,6 +19,10 @@ import Careers from './Component/Carrer'
 import NewFooter from './Component/NewFooter';
 import OurProtfolio from './Component/OurProtfolio';
 import Portfolio from './Component/PortFolio/Portfolio';
+import AllProj from './Component/PortFolio/AllProj';
+import WebDes from './Component/PortFolio/WebDes';
+import LogoDes from './Component/PortFolio/LogoDes';
+import MobApp from './Component/PortFolio/MobApp';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -59,7 +63,12 @@ function App() {
             <Route path="/services/staffing-solution" element={<SS />} />
             <Route path="/services/ai-ml" element={<AiMl />} />
             <Route path="/careers" element={<Careers />} />
-            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path='/portfolio' element={<Portfolio/>}>
+              <Route path='allproj' element={<AllProj />} />
+              <Route path='webdesign' element={<WebDes />} />
+              <Route path='logodesign' element={<LogoDes />} />
+              <Route path='mobileapp' element={<MobApp />} />
+            </Route>
             <Route path="*" element={<NoFound />} />
           </Routes>
           {/* <Footer /> */}
